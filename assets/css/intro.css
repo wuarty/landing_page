@@ -185,7 +185,6 @@ h3 a {
     .intro-content {
         display: grid;
         grid-template-columns: 1fr 1.5fr;
-        gap: var(--gap);
         min-height: 100vh;
         font-size: small;
     }
@@ -193,8 +192,8 @@ h3 a {
     .intro-text {
         display: grid;
         flex-flow: column wrap;
-        justify-content: center;
-        padding: 9rem;
+        justify-content:left;
+        padding: auto;
     }
 
     .intro-text {
