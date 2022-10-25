@@ -187,14 +187,14 @@ h3 a {
         grid-template-columns: 1fr 1.5fr;
         gap: var(--gap);
         min-height: 100vh;
-        font-size: medium;
+        font-size: small;
     }
     
     .intro-text {
         display: grid;
         flex-flow: column wrap;
         justify-content: center;
-        padding: 3rem;
+        padding: 9rem;
     }
 
     .intro-text {
