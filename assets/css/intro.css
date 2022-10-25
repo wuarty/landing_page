@@ -182,12 +182,6 @@ h3 a {
 
 @media (max-width: 1200px) {
 
-    .intro-content {
-        display: grid;
-        font-size:small;
-        padding: 10rem;
-    }
-
     .intro-text {
         display: grid;
         flex-flow: column wrap;
