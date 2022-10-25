@@ -18,7 +18,7 @@
     max-width: 100%;
     min-height: 100%;
     object-fit: contain;
-    padding: 4rem;
+    padding: 9rem;
 
 }
 
@@ -138,7 +138,7 @@ h3 a {
 .form-group textarea {
     border: none;
     background: var(--white-color);
-    padding: 1.5rem 2 rem;
+    padding: 1.5rem 2rem;
     width: 100%;
     font-size: 2rem;
     resize: none;
@@ -182,13 +182,17 @@ h3 a {
 
 @media (max-width: 800px) {
 
-    .intro-img img{
+    .intro-text {
         display: grid;
-        max-width: 100%;
-        min-height: 100%;
-        object-fit: contain;
-        padding: 4rem;
-        object-position: center;
+        flex-flow: column wrap;
+        justify-content: center;
+        padding: 1rem;
+    }
+    
+
+    .intro-img img {
+       padding: 9rem;
+
     }
 
 
