@@ -180,7 +180,15 @@ h3 a {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+
+    .intro-content {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: var(--gap);
+        min-height: 100vh;
+        font-size:small;
+    }
 
     .intro-text {
         display: grid;
