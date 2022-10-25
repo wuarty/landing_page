@@ -184,7 +184,6 @@ h3 a {
 
     .intro-content {
         display: grid;
-        grid-template-columns: 2fr 2fr;
         font-size:small;
         padding: 10rem;
     }
