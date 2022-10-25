@@ -186,7 +186,7 @@ h3 a {
         display: grid;
         flex-flow: column wrap;
         justify-content: center;
-        padding: 1rem;
+        padding: 10rem;
     }
     
 
