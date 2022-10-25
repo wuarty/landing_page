@@ -193,7 +193,6 @@ h3 a {
         display: grid;
         flex-flow: column wrap;
         justify-content:left;
-        padding: auto;
     }
 
     .intro-text {
