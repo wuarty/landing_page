@@ -185,9 +185,8 @@ h3 a {
     .intro-content {
         display: grid;
         grid-template-columns: 2fr 2fr;
-        gap: var(--gap);
-        min-height: 100vh;
         font-size:small;
+        padding: 10rem;
     }
 
     .intro-text {
