@@ -113,7 +113,7 @@ h3 a {
 
 .contact-form {
     grid-column: span 2;
-    padding: 10rem;
+    padding: 1rem;
 }
 
 .contact-form .form-grid {
@@ -180,36 +180,31 @@ h3 a {
 
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
-    .intro-content {
-        display: grid;
-        grid-template-columns: 1fr 1.5fr;
-        min-height: 100vh;
-        font-size: small;
+    .intro-text h2{
+        font-size: 40px;
     }
-    
+
     .intro-text {
         display: grid;
         flex-flow: column wrap;
         justify-content:left;
+        padding: 0.1rem;
     }
-
-    .intro-text {
-        display: grid;
-        flex-flow: column wrap;
-        justify-content: center;
-    }
-    
 
     .intro-img img {
-       padding: 9rem;
+       padding: 1rem;
 
     }
 
 
     .intro-content, .grid {
         grid-template-columns: 1fr;
+    }
+
+    .top-content {
+        font-size: 1.4rem;
     }
 
     .gallery-img img {
