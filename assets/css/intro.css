@@ -4,22 +4,25 @@
     gap: var(--gap);
     min-height: 100vh;
     font-size: medium;
+    align-items: center;
 }
 
 .intro-text {
-    display: grid;
+    display: flex;
     flex-flow: column wrap;
     justify-content: center;
     padding: 3rem;
 }
 
-.intro-img img{
-    display: block;
-    max-width: 100%;
-    min-height: 100%;
-    object-fit: contain;
-    padding: 9rem;
+.intro-img {
+    display: flex;
+    justify-content: center;
+}
 
+.intro-img img{
+    max-width: 420px;
+    width: 100%;
+    height: auto;
 }
 
 .top-content {
@@ -181,7 +184,6 @@ h3 a {
 }
 
 @media only screen and (max-width: 800px) {
-
     .intro-text h2{
         font-size: 40px;
     }
@@ -223,7 +225,6 @@ h3 a {
     .menu-content,
     .menu-content ul {
         flex-direction: column;
-    
         justify-content: center;
     
     }

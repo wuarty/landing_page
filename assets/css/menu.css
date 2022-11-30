@@ -1,5 +1,5 @@
 .menu-spacing {
-    height: 65px;
+    height:58px;
 }
 
 .menu {
@@ -60,3 +60,8 @@
     transition: all 300ms ease-in-out;
 }
 
+@media only screen and (max-width: 800px) {
+    .menu-spacing {
+        height: 0px;
+    }
+}
